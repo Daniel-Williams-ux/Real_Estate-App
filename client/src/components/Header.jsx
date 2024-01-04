@@ -13,7 +13,7 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             className="font-bold text-sm sm:text-xl flex flex-wrap">
-            <span className="text-red-800 mr-4">alcasa</span>
+            <span className="text-black-800 mr-4">Alcasa</span>
             {/* <span className="text-blue-800">Contemporary</span> */}
           </motion.h1>
         </Link>
@@ -31,7 +31,7 @@ export default function Header() {
           <li className="hidden sm:inline text-amber-900 hover:underline cursor-pointer">About</li>
           </Link>
           <Link to='/sign-in'>
-          <li className="text-amber-800 hover:underline cursor-pointer">Sign in</li>
+          <li className="text-amber-800 hover:underline cursor-pointer">Client Login</li>
           </Link>
         </ul>
       </div>
