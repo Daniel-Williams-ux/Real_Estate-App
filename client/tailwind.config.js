@@ -9,6 +9,14 @@ export default {
       aspectRatio: {
         '4/3': '4 / 3',
       },
+      colors: {
+        customBlue: '#003366',
+        lightBlue: ' #0059b3',
+        darkBlue: '#00264d',
+      },
+      justifyItems: {
+        'start': 'flex-start',
+      },
     },
   },
   plugins: [],
