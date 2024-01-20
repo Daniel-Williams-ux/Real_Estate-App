@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
           className="w-full h-full object-cover absolute inset-0"
         /> 
       </div>
+
+      <Footer />
 
     </div>
   );
