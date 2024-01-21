@@ -4,7 +4,7 @@ import Footer from './Footer';
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen overflow-hidden">
-      <div className="w-full h-screen relative  h-3/6 relative">
+      <div className="w-full h-screen relative">
         <img
           src="/alcasa1.jpg"
           alt="Image 1"
@@ -12,7 +12,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="w-full h-screen relative h-3/6 relative">
+      <div className="w-full h-screen relative ">
         <video
           autoPlay
           loop
@@ -24,13 +24,13 @@ export default function Home() {
         </video>
       </div>
 
-      <div className="w-full h-screen relative  h-3/6 relative">
+      {/* <div className="w-full h-screen relative ">
         <img
           src="/alcasa2.jpg"
           alt="Image 1"
           className="w-full h-full object-cover absolute inset-0"
         /> 
-      </div>
+      </div> */}
 
       <Footer />
 
